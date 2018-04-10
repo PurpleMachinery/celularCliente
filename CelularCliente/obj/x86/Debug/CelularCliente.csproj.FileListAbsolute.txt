@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\bin\Debug\CelularCliente.exe
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\bin\Debug\CelularCliente.pdb
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.frmMenu.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.frmCliente.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.Properties.Resources.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.exe
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.pdb
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.frmCelular.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.ClienteCelular.resources
