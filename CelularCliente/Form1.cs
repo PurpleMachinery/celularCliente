@@ -36,5 +36,26 @@ namespace CelularCliente
             tt.MdiParent = this;
             tt.Show();
         }
+
+        private void clienteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form2 tt = new Form2();
+            tt.MdiParent = this;
+            tt.Show();
+        }
+
+        private void celularToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form3 tt = new Form3();
+            tt.MdiParent = this;
+            tt.Show();
+        }
+
+        private void clienteCelularToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form4 tt = new Form4();
+            tt.MdiParent = this;
+            tt.Show();
+        }
     }
 }

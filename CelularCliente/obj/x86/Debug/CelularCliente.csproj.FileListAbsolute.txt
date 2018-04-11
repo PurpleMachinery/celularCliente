@@ -8,3 +8,7 @@ C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularClient
 C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.pdb
 C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.frmCelular.resources
 C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.ClienteCelular.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.Form2.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.Form3.resources
+C:\Users\Aluno\Desktop\CelularCliente\CelularCliente\obj\x86\Debug\CelularCliente.Form4.resources
