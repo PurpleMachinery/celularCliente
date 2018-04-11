@@ -72,13 +72,35 @@ namespace CelularCliente
         private void atualizar(String pkCelular, String pkCliente)
         {
             lbPossui.Items.Clear();
-            String sqlExistentes = "select celulares.nome, clientes.nome from ClienteCelular join celulares on ClienteCelular.fk_idCelular = " + pkCelular + " join clientes on ClienteCelular.fk_idCliente = "+pkCliente;
+            String sqlExistentes = "select ClienteCelular.pk_idRelacao, celulares.nome, clientes.nome from ClienteCelular join celulares on ClienteCelular.fk_idCelular = " + pkCelular + " join clientes on ClienteCelular.fk_idCliente = " + pkCliente;
             SqlCommand comando2 = new SqlCommand(sqlExistentes, conn);
             conn.Open();
             SqlDataReader data2 = comando2.ExecuteReader();
             while (data2.Read())
             {
-                lbPossui.Items.Add(data2.GetString(0) + " / " + data2.GetString(1));
+                lbPossui.Items.Add(data2.GetInt32(0) + " / " + data2.GetString(1) + " / " + data2.GetString(2));
+            }
+            conn.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String[] cliente = cmbClientes.Text.Split('/');
+            String [] del = lbPossui.Text.Split('/');
+            String sql = "delete from ClienteCelular where pk_idRelacao = '" + del[0]+"'";
+            SqlCommand comando = new SqlCommand(sql, conn);
+            conn.Open();
+            comando.ExecuteNonQuery();
+            conn.Close();
+
+            lbPossui.Items.Clear();
+            String sqlExistentes = "select ClienteCelular.pk_idRelacao, celulares.nome, clientes.nome from ClienteCelular join celulares on ClienteCelular.fk_idCelular = celulares.pk_idCelular join clientes on ClienteCelular.fk_idCliente = " + cliente[0];
+            SqlCommand comando2 = new SqlCommand(sqlExistentes, conn);
+            conn.Open();
+            SqlDataReader data2 = comando2.ExecuteReader();
+            while (data2.Read())
+            {
+                lbPossui.Items.Add(data2.GetInt32(0) + " / " + data2.GetString(1) + " / " + data2.GetString(2));
             }
             conn.Close();
         }
